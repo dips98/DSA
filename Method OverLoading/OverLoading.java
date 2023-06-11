@@ -19,7 +19,7 @@ class MethodOverLoading{
 public class OverLoading {
     public static void main(String[] args) {
         MethodOverLoading obj = new MethodOverLoading();
-        int result = obj.add(5,7);
+        int result = obj.add(5,77);
         float resultFloat = (float) obj.add(4.6, 7.9);
         System.out.println(result);
         System.out.println(resultFloat);
