@@ -1,3 +1,6 @@
+// the sequence of promotion of data type will be
+// byte -> short -> int -> long -> float-> double
+// for char -> int -> long -> float-> double
 class MethodOverLoading{
     public void show(byte a) {
         System.out.println("Byte: "+ a);
