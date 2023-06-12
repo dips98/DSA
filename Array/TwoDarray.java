@@ -1,3 +1,4 @@
+package Array;
 public class TwoDarray {
     public static void main(String[] args) {
         // intialzing two d array
