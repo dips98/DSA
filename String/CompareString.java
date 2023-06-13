@@ -21,5 +21,11 @@ public class CompareString {
         if (s1.equals(s2)) {
             System.out.println("True s1 content is equal to  s2");
         }
+
+        // printing the expresession directly
+
+        System.out.println("s1 and s4 have same refference address? :"+s1==s4);
+        System.out.println("s2 and s3 have same refference address? :"+s2==s3);
+
     }
 }
