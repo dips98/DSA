@@ -16,8 +16,7 @@ public class CompareString {
             System.out.println("Both are not same have different reference address");
         }
 
-        // Using equals will cheeck the inside content of the string and give the value
-
+        // Using equals will cheeck the inside content of the string and give the valu
         if (s1.equals(s2)) {
             System.out.println("True s1 content is equal to  s2");
         }
