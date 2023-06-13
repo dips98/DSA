@@ -1,8 +1,8 @@
 package String;
 
-// Where ever we use new keyword to create object of String class it will allocate always different refernece address. This will allow duplicate.
+// 1. Where ever we use new keyword to create object of String class it will allocate always different refernece address. This will allow duplicate.
 
-// If you declare the String with out new keyword it will craete refference address in scp(String Constant Pool). That will never allow dupliacte
+// 2. If you declare the String with out new keyword it will craete refference address in scp(String Constant Pool). That will never allow dupliacte
 
 public class CompareString {
     public static void main(String[] args) {
