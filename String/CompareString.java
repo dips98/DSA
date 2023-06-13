@@ -8,7 +8,8 @@ public class CompareString {
     public static void main(String[] args) {
         String s1 = "Dipesh";
         String s2 = new String("Dipesh");
-
+        String s3 = new String("Dipesh");
+        String s4 = "Dipesh";
         // USing == operator it will check the reference address
         if (s1 == s2) {
             System.out.println("True both s1 and s2 is same");
