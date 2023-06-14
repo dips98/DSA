@@ -25,5 +25,13 @@ class ConcatinationString{
 
 
         // +  operator
+
+        String w1 = "Dipesh";
+        String w2 = w1 + " Upadhyay";
+        String w3 = w2 + " Anil";
+        System.out.println(w1);
+        System.out.println(w2);
+        System.out.println(w3);
+        System.out.println(w1+w2+w3);
     }
 }
