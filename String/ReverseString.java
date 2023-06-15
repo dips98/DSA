@@ -5,7 +5,7 @@ public class ReverseString {
         String s1 = new String("My Name is Anthony Gonsalvis");
         System.out.println("Before Reverse : "+ s1);
         String reversedString = reverseString(s1);
-        System.out.println("After  Reverse : "+reversedString);
+        System.out.println("After  Reverse : "+reversedString+ " of "+ s1);
         String []a = s1.split("");
         String arrayString = reverseArrayString(a);
         System.out.println("This is array string reversed : " + arrayString);
