@@ -19,9 +19,10 @@ class Solution {
                 match = string;
             }
         }
+        minLength = minLength-1;
 
         for (int i = 0; i <= n - 1; i++) {
-            if (arr[0].substring(0, minLength - 1).equals(match)) {
+            if (arr[0].substring(0, minLength).equals(match)) {
                 count = count + 1;
             } else {
                 count = 0;
