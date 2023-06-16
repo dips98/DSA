@@ -22,12 +22,13 @@ class Solution {
         minLength = minLength-1;
 
         for (int i = 0; i <= n - 1; i++) {
-            if (arr[0].substring(0, minLength).equals(match)) {
+            if (arr[i].substring(0, minLength+1).equals(match)) {
                 count = count + 1;
             } else {
                 count = 0;
                 minLength = minLength - 1;
-                match = match.substring(0, minLength);
+                match = match.substring(0, minLength+1);
+                i = 0;
                 continue;
             }
             if (count == n) {
