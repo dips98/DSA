@@ -7,7 +7,7 @@ class Solution {
         longestCommonPrefix(a , 4);
     }
 
-    String longestCommonPrefix(String arr[], int n) {
+    static String longestCommonPrefix(String arr[], int n) {
         String res = "";
         String match = arr[0];
         int count = 0;
