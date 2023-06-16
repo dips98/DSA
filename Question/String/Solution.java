@@ -4,7 +4,8 @@ class Solution {
 
     public static void main(String[] args) {
         String [] a = { "geeksforgeeks", "geeks", "geek","geezer" };
-        longestCommonPrefix(a , 4);
+        String result = longestCommonPrefix(a , 4);
+        System.out.println(result);
     }
 
     static String longestCommonPrefix(String arr[], int n) {
