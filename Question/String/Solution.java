@@ -7,7 +7,7 @@ class Solution {
         String result = longestCommonPrefix(a , a.length);
         System.out.println(result);
     }
-
+//  All test casenot passing Oops! Im noob 
     static String longestCommonPrefix(String arr[], int n) {
         String res = "";
         String match = arr[0];
