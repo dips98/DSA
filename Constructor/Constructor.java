@@ -4,10 +4,10 @@ class Demo{
     int a = 45;
     int b = 24;
 
-    Demo(int a){
+    Demo(int a, int b){
         System.out.println("First Contructor will execute"+ " Given Parameter :"+a);
         this.a = this.a + a;
-        b = a+b;
+        this.b = this.b+b;
     }
     void show(){
         System.out.println(a +" "+ b);
@@ -16,7 +16,7 @@ class Demo{
 
 public class Constructor {
     public static void main(String[] args) {
-        Demo d = new Demo(56);
+        Demo d = new Demo(56,1);
         d.show();
     }
 }
