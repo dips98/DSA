@@ -4,6 +4,9 @@ class Demo{
     int a = 45;
     int b = 24;
 
+    Demo(){
+        System.out.println("First Contructor will execute");
+    }
     void show(){
         System.out.println(a +" "+ b);
     }
