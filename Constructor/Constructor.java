@@ -18,5 +18,8 @@ public class Constructor {
     public static void main(String[] args) {
         Demo d = new Demo(56,1);
         d.show();
+        Demo d1  = new Demo(1,2);
+        d1.show();
+
     }
 }
