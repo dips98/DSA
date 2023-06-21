@@ -20,6 +20,6 @@ class Student {
 
 public class ConstructorOverloading {
     public static void main(String[] args) {
-
+        Student s = new Student();
     }
 }
