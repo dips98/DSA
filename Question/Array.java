@@ -1,5 +1,7 @@
 package Question;
 
+import java.util.Arrays;
+
 class Array {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[nums.length];
