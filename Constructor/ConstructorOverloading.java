@@ -1,23 +1,25 @@
 package Constructor;
 
-class Student{
+class Student {
     int age;
     String name;
 
-    Student(){
+    Student() {
         System.out.println("This is constructor");
     }
-    Student(int a){
+
+    Student(int a) {
         System.out.println("This is constructor which take int parameter");
         age = a;
     }
-    void show(){
-        System.out.println("Age :"+age+"\n"+"Name :"+name);
+
+    void show() {
+        System.out.println("Age :" + age + "\n" + "Name :" + name);
     }
 }
 
 public class ConstructorOverloading {
     public static void main(String[] args) {
-        
+
     }
 }
