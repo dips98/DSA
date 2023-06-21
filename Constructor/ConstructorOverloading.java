@@ -7,6 +7,15 @@ class Student{
     Student(){
         System.out.println("This is constructor");
     }
+    Student(int a){
+        System.out.println("This is constructor which take int parameter");
+        age = a;
+    }
+    void show(){
+        System.out.println("Age :"+age+"\n"+"Name :"+name);
+    }
+
+
 }
 
 public class ConstructorOverloading {
