@@ -21,6 +21,7 @@ class Student {
 public class ConstructorOverloading {
     public static void main(String[] args) {
         Student s = new Student();
+        s.show();
         Student s1 = new Student(6);
     }
 }
