@@ -9,17 +9,19 @@ class Student {
     }
 
     Student(int a) {
-        this();
+        this("ji");
         System.out.println("This is constructor which take int parameter");
         age = a;
     }
 
     Student(String s) {
+        this();
         System.out.println("This is constructor which take String parameter");
         name = s;
     }
 
     Student(int a,String s) {
+        this();
         System.out.println("This is constructor which take Int and String parameter Both");
         age = a;
         name = s;
@@ -32,13 +34,13 @@ class Student {
 
 public class ConstructorOverloading {
     public static void main(String[] args) {
-        Student s = new Student();
-        s.show();
+        // Student s = new Student();
+        // s.show();
         Student s1 = new Student(6);
         s1.show();
-        Student s2 = new Student("Dipesh");
-        s2.show();
-        Student s3 = new Student(5,"Dipesh");
-        s3.show();
+        // Student s2 = new Student("Dipesh");
+        // s2.show();
+        // Student s3 = new Student(5,"Dipesh");
+        // s3.show();
     }
 }
