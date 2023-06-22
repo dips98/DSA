@@ -13,6 +13,12 @@ class Student {
         age = a;
     }
 
+    Student(String s) {
+        System.out.println("This is constructor which take String parameter");
+        name = s;
+    }
+
+
     void show() {
         System.out.println("Age :" + age + "\n" + "Name :" + name);
     }
@@ -24,5 +30,7 @@ public class ConstructorOverloading {
         s.show();
         Student s1 = new Student(6);
         s1.show();
+        Student s2 = new Student("Dipesh");
+        s2.show();
     }
 }
