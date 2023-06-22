@@ -23,5 +23,6 @@ public class ConstructorOverloading {
         Student s = new Student();
         s.show();
         Student s1 = new Student(6);
+        s1.show();
     }
 }
