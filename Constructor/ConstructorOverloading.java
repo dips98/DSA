@@ -5,10 +5,12 @@ class Student {
     String name;
 
     Student() {
+        super();
         System.out.println("This is constructor");
     }
 
     Student(int a) {
+        this();
         System.out.println("This is constructor which take int parameter");
         age = a;
     }
