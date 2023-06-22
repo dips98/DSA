@@ -5,6 +5,9 @@ class Farmer{
     private String name;
 
     void setName(String name){
+        // if we use same name it will treat as local varaible bydefault
+        // this issue called shadowing problem 
+        // it can be solved by this keyword
         this.name = name;
     }
     void show(){
