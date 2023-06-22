@@ -5,7 +5,6 @@ class Student {
     String name;
 
     Student() {
-        super();
         System.out.println("This is constructor");
     }
 
