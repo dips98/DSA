@@ -18,6 +18,12 @@ class Student {
         name = s;
     }
 
+    Student(int a,String s) {
+        System.out.println("This is constructor which take Int and String parameter Both");
+        age = a;
+        name = s;
+    }
+
     void show() {
         System.out.println("Age :" + age + "\n" + "Name :" + name);
     }
