@@ -18,7 +18,6 @@ class Student {
         name = s;
     }
 
-
     void show() {
         System.out.println("Age :" + age + "\n" + "Name :" + name);
     }
