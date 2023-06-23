@@ -25,7 +25,7 @@ public class Encapsulation {
     public static void main(String[] args) {
         Farmer f = new Farmer();
         f.setName("DOLLY");
-        // f.show();
+        f.show();
         System.out.println(f.getName());
 
     }
