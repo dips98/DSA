@@ -1,6 +1,6 @@
 package Oops.Inheritance;
 
-class Human{
+class Human{ // Base class , Super class, parent class
     int age;
 
     void sleep(){
@@ -9,7 +9,7 @@ class Human{
     }
 }
 
-class Student extends Human{
+class Student extends Human{ // sub class , child class // derived class
 }
 
 public class Inheritance {
