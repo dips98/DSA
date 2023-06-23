@@ -16,18 +16,6 @@ class Farmer{
     public void setName(String name) {
         this.name = name;
     }
-    // void setName(String name){
-    //     // if we use same name it will treat as local varaible bydefault
-    //     // this issue called shadowing problem 
-    //     // it can be solved by this keyword
-    //     this.name = name;
-    // }
-    // void setLand(int land){
-    //     // if we use same name it will treat as local varaible bydefault
-    //     // this issue called shadowing problem 
-    //     // it can be solved by this keyword
-    //     this.land = land;
-    // }
     void show(){
         System.out.println("Land :"+land+"\n"+"Name :"+name);
     }
