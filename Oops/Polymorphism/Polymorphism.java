@@ -43,16 +43,28 @@ class FighterPlane extends Aeroplane {
     }
 }
 
+class Airport {
+    void poly(Aeroplane ref){
+        ref.takeOff();
+        ref.fly();
+        System.out.println("------------------------------------------------");
+    }
+}
+
 public class Polymorphism {
     public static void main(String[] args) {
         CargoPlane cp = new CargoPlane();
         PassengerPlane pp = new PassengerPlane();
         FighterPlane fp = new FighterPlane();
-        cp.takeOff();
-        cp.fly();
-        pp.takeOff();
-        pp.fly();
-        fp.takeOff();
-        fp.fly();
+        Airport a = new Airport();
+        a.poly(cp);
+        a.poly(pp);
+        a.poly(fp);
+        // cp.takeOff();
+        // cp.fly();
+        // pp.takeOff();
+        // pp.fly();
+        // fp.takeOff();
+        // fp.fly();
     }
 }
