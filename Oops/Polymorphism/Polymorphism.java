@@ -34,6 +34,15 @@ class PassengerPlane extends Aeroplane {
 
 public class Polymorphism {
     public static void main(String[] args) {
-
+        CargoPlane cp = new CargoPlane();
+        PassengerPlane pp = new PassengerPlane();
+        Aeroplane ref;
+        ref = cp;
+        ref.takeOff();
+        ref.fly();
+        ref = pp;
+        System.out.println("----------------------------------");
+        ref.takeOff();
+        ref.fly();
     }
 }
