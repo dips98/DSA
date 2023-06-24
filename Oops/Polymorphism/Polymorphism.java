@@ -32,17 +32,27 @@ class PassengerPlane extends Aeroplane {
     }
 }
 
+class FighterPlane extends Aeroplane {
+    void takeOff() { // Defining same method name of inherit method in child class is called
+                     // over-riding method
+        System.out.println("Fighter plane is getting takeoff!");
+    }
+
+    void carryPassenger() { // Defined new method in child class is called specialised method
+        System.out.println("Fighter passengers!");
+    }
+}
+
 public class Polymorphism {
     public static void main(String[] args) {
         CargoPlane cp = new CargoPlane();
         PassengerPlane pp = new PassengerPlane();
-        Aeroplane ref;
-        ref = cp;
-        ref.takeOff();
-        ref.fly();
-        ref = pp;
-        System.out.println("----------------------------------");
-        ref.takeOff();
-        ref.fly();
+        FighterPlane fp = new FighterPlane();
+        cp.takeOff();
+        cp.fly();
+        pp.takeOff();
+        pp.fly();
+        fp.takeOff();
+        fp.fly();
     }
 }
