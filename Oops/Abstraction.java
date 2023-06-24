@@ -4,6 +4,10 @@ package Oops;
     abstract public void takeOff();
 
     abstract public void fly();
+    // In 100% abstract class all method should be abstract
+    void landing(){  // Due to this method the class is not 100% abstract class
+        System.out.println("Plane is Landing!");
+    }
 }
 
 class CargoPlane extends Aeroplane {
@@ -18,6 +22,10 @@ class CargoPlane extends Aeroplane {
 
     void carryGoods() { // Defined new method in child class is called specialised method
         System.out.println("Carrying goods!");
+    }
+
+    void turbulance(){
+        System.out.println("Getting turbulance in Cargo");
     }
 }
 
@@ -68,6 +76,9 @@ public class Abstraction {
         a.poly(cp);
         a.poly(pp);
         a.poly(fp);
+
+        Aeroplane aa = new CargoPlane();
+        ((CargoPlane) aa).turbulance(); // casting to a same  class object
         // Aeroplane A = new Aeroplane(); // Can not make object of abstraction class
     }
 }
