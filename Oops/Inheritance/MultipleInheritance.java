@@ -9,12 +9,12 @@ class A{
         System.out.println("Hi");
     }
 }
-class B extends A,B{  // getting error multiple inheritance not allowed in java
+class B extends A{  // getting error multiple inheritance not allowed in java
     B(){
         System.out.println("B constructor");
     }
 }
-class C extends B,A{ // getiing eror multiple inheritance not allowed in java
+class C extends B{ // getiing eror multiple inheritance not allowed in java
     C(){
         System.out.println("C constructor");
     }
