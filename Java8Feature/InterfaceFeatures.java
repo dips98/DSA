@@ -2,6 +2,9 @@ package Java8Feature;
 
 interface Computer {
     void compileCode();
+    default void config(){
+        System.out.println("Used deafult!");
+    }
 }
 
 class Developer {
