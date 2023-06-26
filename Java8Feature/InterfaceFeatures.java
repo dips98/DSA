@@ -14,7 +14,7 @@ class Developer {
     }
 }
 
-class Desktop implements Computer {
+class Desktopp implements Computer {
     public void compileCode() {
         System.out.println("Compiling the code onn desktop!");
     }
@@ -28,6 +28,8 @@ class Laptop implements Computer {
 
 public class InterfaceFeatures {
     public static void main(String[] args) {
-        
+        Computer obj = Desktopp();
+        obj.compileCode();
+
     }
 }
