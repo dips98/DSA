@@ -1,26 +1,26 @@
 package Java8Feature;
 
-interface Computer {
+interface Computer1 {
     void compileCode();
     default void config(){
         System.out.println("Used deafult!");
     }
 }
 
-class Developer {
-    void buildApp(Computer l) {
+class Developerr {
+    void buildApp(Computer1 l) {
         System.out.println("Building the app!");
         l.compileCode();
     }
 }
 
-class Desktopp implements Computer {
+class Desktopp implements Computer1 {
     public void compileCode() {
         System.out.println("Compiling the code onn desktop!");
     }
 }
 
-class Laptop implements Computer {
+class Laptopp implements Computer1 {
     public void compileCode() {
         System.out.println("Compiling the code on laptop!");
     }
@@ -28,8 +28,8 @@ class Laptop implements Computer {
 
 public class InterfaceFeatures {
     public static void main(String[] args) {
-        Computer obj = Desktopp();
+        Computer1 obj = Desktopp();
         obj.compileCode();
-
+        System.out.println("");
     }
 }
