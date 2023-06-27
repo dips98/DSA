@@ -10,13 +10,6 @@ interface Computer1 {
     }
 }
 
-class Developerr {
-    void buildApp(Computer1 l) {
-        System.out.println("Building the app!");
-        l.compileCode();
-    }
-}
-
 class Desktopp implements Computer1 {
     public void compileCode() {
         System.out.println("Compiling the code onn desktop!");
