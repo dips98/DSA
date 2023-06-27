@@ -31,5 +31,6 @@ public class InterfaceFeatures {
         obj.compileCode();
         Computer1 obj1 = new Laptopp();
         obj1.config();
+        Computer1.Show();
     }
 }
