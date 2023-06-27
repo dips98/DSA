@@ -6,7 +6,7 @@ package Java8Feature;
 
 // Three Types of Interface 
 // 1. Single Method 
-// 2.
+// 2. Normal Interface
 // 3. Marker
 
 interface Computer1 {
