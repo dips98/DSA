@@ -8,6 +8,9 @@ interface Computer1 {
     default void config(){
         System.out.println("Used deafult!");
     }
+    static void Show(){
+        System.out.println("Show");
+    }
 }
 
 class Desktopp implements Computer1 {
