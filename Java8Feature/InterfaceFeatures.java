@@ -1,6 +1,6 @@
 package Java8Feature;
 
-// 
+// Java 8 feature we can define method (Body of function) in Interface
 
 interface Computer1 {
     void compileCode();
