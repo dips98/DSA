@@ -4,6 +4,11 @@ package Java8Feature;
 // We can use type of interface to crate an object
 // Static method also we can define in Interfface
 
+// Three Types of Interface 
+// 1. Single Method 
+// 2.
+// 3. Marker
+
 interface Computer1 {
     void compileCode();
     default void config(){
