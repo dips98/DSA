@@ -5,7 +5,7 @@ package Java8Feature;
 // Static method also we can define in Interfface
 
 // Three Types of Interface 
-// 1. Single Abstract Method Interface (SAM Interface- compulsory one method allowed)
+// 1. Single Abstract Method Interface (SAM Interface- compulsory one method allowed) Also Called [Functional Interface]
 // 2. Normal Interface (Contains Multiple methods)
 // 3. Marker (No methods are there called Marker Interface)
 
