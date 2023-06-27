@@ -30,6 +30,5 @@ public class InterfaceFeatures {
     public static void main(String[] args) {
         Computer1 obj = new Desktopp();
         obj.compileCode();
-        System.out.println("=====");
     }
 }
