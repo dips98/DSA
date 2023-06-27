@@ -1,5 +1,7 @@
 package Java8Feature;
 
+
+
 interface Computer1 {
     void compileCode();
     default void config(){
