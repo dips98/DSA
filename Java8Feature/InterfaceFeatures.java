@@ -11,10 +11,12 @@ package Java8Feature;
 
 interface Computer1 {
     void compileCode();
-    default void config(){
+
+    default void config() {
         System.out.println("Used deafult!");
     }
-    static void Show(){
+
+    static void Show() {
         System.out.println("Show");
     }
 }
