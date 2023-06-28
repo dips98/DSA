@@ -15,6 +15,18 @@ class M{
         }
     }
 }
+
+class O{
+    public void show(){
+        System.out.println("Show");
+    }
+    static class P{
+        public void display(){
+            System.out.println("Display !");
+        }
+    }
+}
+
 public class LamdaExpression {
     public static void main(String[] args) {
         M m = new M();
