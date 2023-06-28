@@ -4,7 +4,7 @@ package LamdaExpression;
 // Static can only work in inner class
 class M{
 
-    static class N{
+    class N{
 
     }
 }
