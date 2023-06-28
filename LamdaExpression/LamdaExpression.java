@@ -1,10 +1,10 @@
 package LamdaExpression;
-
+// Inner class
 
 class M{
 
     class N{
-        
+
     }
 }
 public class LamdaExpression {
