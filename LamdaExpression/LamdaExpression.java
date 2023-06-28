@@ -18,11 +18,11 @@ class M{
 
 class O{
     public void show(){
-        System.out.println("Show");
+        System.out.println("Static Show");
     }
     static class P{
         public void display(){
-            System.out.println("Display !");
+            System.out.println("Static Display !");
         }
     }
 }
@@ -33,6 +33,11 @@ public class LamdaExpression {
         m.show();
         M.N n = m.new N();
         n.display();
+
+        O o = new O();
+        o.show();
+        O.P i  = new O.P();
+        i.display();
 
     }
 }
