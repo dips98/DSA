@@ -1,10 +1,10 @@
 package LamdaExpression;
 // Inner class
-// Inner class have three types 1.Member  2.Static 3.Anomymous
-
+// Inner class have three types 1.Member 2.Static 3.Anomymous
+// Static can only work in inner class
 class M{
 
-    class N{
+    static class N{
 
     }
 }
