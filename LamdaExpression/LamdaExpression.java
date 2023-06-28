@@ -12,6 +12,7 @@ class M{
 }
 public class LamdaExpression {
     public static void main(String[] args) {
-
+        M m = new M();
+        m.show();
     }
 }
