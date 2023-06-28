@@ -1,8 +1,8 @@
 package LamdaExpression;
 
 
-class A{
-    
+class M{
+
 }
 public class LamdaExpression {
     public static void main(String[] args) {
