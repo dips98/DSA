@@ -12,9 +12,12 @@ class Waganar implements Car{
 
 public class Anonymous {
     public static void main(String[] args) {
-        Car obj = new Waganar();
+        // Car obj = new Waganar();
         // Waganar obj = new Waganar();
-        obj.drive();
+        // obj.drive();
+
+        // Now we are creating anonymous inner class
+        
 
     }
 }
