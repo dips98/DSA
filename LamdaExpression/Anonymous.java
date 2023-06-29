@@ -24,6 +24,6 @@ public class Anonymous {
             }
         };
         obj.drive();
-
+        //  This is called anonymous inner class.
     }
 }
