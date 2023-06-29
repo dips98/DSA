@@ -1,9 +1,12 @@
 package LamdaExpression;
 
-interface car{
+interface Car{
     public void drive();
 }
 
+class Waganar implements Car{
+
+}
 
 public class Anonymous {
     public static void main(String[] args) {
