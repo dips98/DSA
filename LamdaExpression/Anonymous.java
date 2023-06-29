@@ -17,7 +17,13 @@ public class Anonymous {
         // obj.drive();
 
         // Now we are creating anonymous inner class
-        
+
+        Car obj = new Car(){
+            public void drive(){
+                System.out.println("Driving");
+            }
+        };
+        obj.drive();
 
     }
 }
