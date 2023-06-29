@@ -12,6 +12,8 @@ class Waganar implements Car{
 
 public class Anonymous {
     public static void main(String[] args) {
+        Car obj = new Waganar();
+        obj.drive();
         
     }
 }
