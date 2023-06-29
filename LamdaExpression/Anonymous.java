@@ -18,12 +18,21 @@ public class Anonymous {
 
         // Now we are creating anonymous inner class
 
-        Car obj = new Car(){
-            public void drive(){
+        // Car obj = new Car(){
+        //     public void drive(){
+        //         System.out.println("Driving");
+        //     }
+        // };
+
+        //  This is called anonymous inner class.
+
+        // This is called Lamda expression
+        Car obj = () -> {
+            {
                 System.out.println("Driving");
             }
         };
         obj.drive();
-        //  This is called anonymous inner class.
+       
     }
 }
