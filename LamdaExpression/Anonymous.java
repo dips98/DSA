@@ -27,6 +27,7 @@ public class Anonymous {
         //  This is called anonymous inner class.
 
         // This is called Lamda expression
+        // It will only work for function interface
         Car obj = () -> {
             {
                 System.out.println("Driving");
