@@ -6,7 +6,7 @@ interface Car{
 
 class Waganar implements Car{
     public void drive(){
-        System.out.println("Waganar Drive ");
+        System.out.println("Waganar Driving ");
     }
 }
 
