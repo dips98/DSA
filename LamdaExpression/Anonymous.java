@@ -1,11 +1,13 @@
 package LamdaExpression;
 
 interface Car{
-    public void drive();
+    void drive();
 }
 
 class Waganar implements Car{
-
+    public void drive(){
+        System.out.println("Waganar Drive ");
+    }
 }
 
 public class Anonymous {
