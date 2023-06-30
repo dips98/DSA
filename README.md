@@ -10,4 +10,4 @@ Data structure and Algorithm
 
 1. Java Programming language
     . Execution and dependency on lang
-    
+    . Basic
