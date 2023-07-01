@@ -12,4 +12,4 @@ Data structure and Algorithm
     . Execution and dependency on lang
     . Basic Lang flow 
 
-2. Basic Data
+2. Basic Data Stucture
