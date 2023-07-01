@@ -16,3 +16,4 @@ Data structure and Algorithm
     . String
     . Array
     . Linked List
+    . Map
