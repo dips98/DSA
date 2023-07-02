@@ -18,5 +18,5 @@ Data structure and Algorithm
     . Linked List
     . Map
     . Tree
-    . G
+    . Gr
     
