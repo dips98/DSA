@@ -20,5 +20,5 @@ Data structure and Algorithm
     . Tree
     . Graph
     
-3. Advance Data St
+3. Advance Data Str
 
