@@ -20,5 +20,5 @@ Data structure and Algorithm
     . Tree
     . Graph
     
-3. Advan
+3. Advanc
 
