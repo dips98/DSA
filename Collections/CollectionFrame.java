@@ -11,11 +11,13 @@ public class CollectionFrame {
 
     // Collection Hierarchy 
 
-    // parent "Interable"
-    //            `'->
-    // Parent Interface "Collection"
-                    //      `'->
-    // Interface : 1. "List" 2. "Queue" 3. "Set"
-    //                             `'->
-    //                               Deque Interface   
+
+    // parent          "Interable"
+    //                        `'->
+    // Parent Interface        "Collection"
+    //                              `'->
+    //                 /--------------------/------------------------/      
+    // Interface :  1. "List"         2. "Queue"               3. "Set"
+    //                                     `'->                     `'->
+    //                                       Deque Interface           Sorted Set
 }
