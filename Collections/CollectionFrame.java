@@ -12,12 +12,12 @@ public class CollectionFrame {
     // Collection Hierarchy 
 
 
-    // parent          "Interable"
-    //                        `'->
-    // Parent Interface        "Collection"
-    //                              `'->
-    //                 /--------------------/------------------------/      
-    // Interface :  1. "List"         2. "Queue"               3. "Set"
-    //                                     `'->                     `'->
-    //                                       Deque Interface           Sorted Set
+    // parent          "Interable"                                                          |
+    //                        `'->                                                          |
+    // Parent Interface        "Collection"                                                 |
+    //                              `'->                                                    |------> This all Interface extends from parent "Interable" up to "Sorted Set"
+    //                 /--------------------/------------------------/                      |
+    // Interface :  1. "List"         2. "Queue"               3. "Set"                     |
+    //                                     `'->                     `'->                    |
+    //                                       Deque Interface           Sorted Set           |    
 }
