@@ -1,6 +1,6 @@
 package Collections;
 
-// Cleections are inbuild classes, Interface and Methhod which can be dynamic and store different type of data in large numbers
+// Collections are inbuild classes, Interface and Methhod which can be dynamic and store different type of data in large numbers
 
 
 public class CollectionFrame {
