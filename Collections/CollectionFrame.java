@@ -22,5 +22,5 @@ public class CollectionFrame {
     //                                       Deque Interface           Sorted Set           |    
 
 
-    
+    // There are 7 major class for the data structure extends by default by java when we use one of them they will aquire methods, property in them
 }
