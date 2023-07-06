@@ -37,7 +37,7 @@ public class ArrList {
         result.add(arr1);
         result.add(arr);
         for(List i : result){
-            System.out.println(i);
+            System.out.println("Loli "+i);
         }
         System.out.println("Before print "+result);
     }
