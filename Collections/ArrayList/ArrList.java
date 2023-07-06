@@ -32,10 +32,12 @@ public class ArrList {
         List arr1 = new ArrayList();
         arr1.add("All");
         arr1.add(80);
-        System.out.println(arr1);
+        System.out.println("Normal array"+arr1);
         List<List<Integer>> result = new ArrayList<>();
         result.add(arr1);
-
-        System.out.println(result);
+        for(List i : result){
+            System.out.println(i);
+        }
+        System.out.println("Before print "+result);
     }
 }
