@@ -24,6 +24,7 @@ public class ArrList {
         System.out.println("Size of array :"+ arr.size());
         arr.trimToSize();
         System.out.println(arr.size());
-
+        arr.clear();
+        System.out.println(arr);
     }
 }
