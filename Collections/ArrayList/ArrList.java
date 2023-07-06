@@ -13,6 +13,7 @@ public class ArrList {
         arr.add(6);
         arr.add(7);
         arr.add(8);
+        // arr.add("HI"); You cant add we can make arraylist int staring char as we wanted else it can be accept any data type include array itself 
 
         for(int i:arr){
             System.out.println(i);
