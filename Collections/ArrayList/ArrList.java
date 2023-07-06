@@ -35,6 +35,7 @@ public class ArrList {
         System.out.println("Normal array"+arr1);
         List<List<Integer>> result = new ArrayList<>();
         result.add(arr1);
+        result.add(arr);
         for(List i : result){
             System.out.println(i);
         }
