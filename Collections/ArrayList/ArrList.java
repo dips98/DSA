@@ -1,6 +1,7 @@
 package Collections.ArrayList;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrList {
     public static void main(String[] args) {
@@ -26,5 +27,10 @@ public class ArrList {
         System.out.println(arr.size());
         arr.clear();
         System.out.println(arr);
+
+        List arr1 = new ArrayList();
+        arr1.add("All");
+        arr1.add(80);
+        System.out.println(arr1);
     }
 }
