@@ -25,5 +25,5 @@ Data structure and Algorithm
     . Tree
     . 
 
-4. Basic Al
+4. Basic Alo
     . 
