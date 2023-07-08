@@ -25,5 +25,5 @@ Data structure and Algorithm
     . Tree
     . 
 
-4. Basic Algor
+4. Basic Algori
     . 
