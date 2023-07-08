@@ -9,6 +9,13 @@ public class LinkedListL {
         Ll.add(1);
         Ll.add("KO");
         Ll.add('s');
+        Ll.addFirst("Pw");
+        Ll.addLast("Opp");
+        System.out.println(Ll);
+        System.out.println(Ll.peek());
+        System.out.println(Ll.peekLast());
+        System.out.println(Ll.poll());
+        System.out.println(Ll.pop());
         System.out.println(Ll);
     }
 }
