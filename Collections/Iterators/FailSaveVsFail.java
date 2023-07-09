@@ -19,13 +19,14 @@ public class FailSaveVsFail {
 
         for(int i=0;i<ar.size();i++){
             System.out.println(ar.get(i));
+            //ar.add(100); //Will gwt in ifinite loop
         }
 
         System.out.println("--In for loop--");
 
         for(Object i:ar){
             System.out.println(i);
-            //ar.add(100); //java.util.ConcurrentModificationException
+            //ar.add(100); //java.util.ConcurrentModificationException -- called fail fast
         }
 
         System.out.println("--Interator--");
@@ -33,6 +34,7 @@ public class FailSaveVsFail {
         Iterator it = ar.iterator();
         while(it.hasNext()){
             System.out.println(it.next());
+            //ar.add(100); //java.util.ConcurrentModificationException --Called Fail fast
         }
     }
 }
