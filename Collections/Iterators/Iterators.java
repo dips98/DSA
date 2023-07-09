@@ -22,9 +22,11 @@ public class Iterators {
             // System.out.println(o);
             System.out.println(ar.get(i));
         }
-
+        System.out.println("---------------");
         //  For each loop
-        
+        for (Object i : ar) {
+            System.out.println(i);
+        }
 
     }
 }
