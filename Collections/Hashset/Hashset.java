@@ -27,6 +27,7 @@ public class Hashset {
         hs1.add(35);
         hs1.add(95);
         hs1.add(200);
+        hs1.add(909);
         System.out.println(hs1);
     }
 }
