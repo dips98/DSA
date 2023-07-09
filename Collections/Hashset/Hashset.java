@@ -10,6 +10,7 @@ public class Hashset {
         // Duplicates not allowed
         // load factor is 0.75
         HashSet hs = new HashSet();
+        hs.add(0);
         hs.add(1);
         hs.add(10);
         hs.add(20);
