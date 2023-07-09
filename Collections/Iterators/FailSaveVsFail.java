@@ -15,7 +15,11 @@ public class FailSaveVsFail {
         ar.add(85);
         ar.add(99);
 
-        
+        System.out.println("--In simple for loop--");
+
+        for(int i=0;i<ar.size();i++){
+            System.out.println(ar.get(i));
+        }
 
         System.out.println("--In for loop--");
 
@@ -25,6 +29,7 @@ public class FailSaveVsFail {
         }
 
         System.out.println("--Interator--");
+
         Iterator it = ar.iterator();
         while(it.hasNext()){
             System.out.println(it.next());
