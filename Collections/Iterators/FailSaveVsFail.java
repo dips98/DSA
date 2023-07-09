@@ -2,6 +2,7 @@ package Collections.Iterators;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class FailSaveVsFail {
     public static void main(String[] args) {
@@ -36,5 +37,25 @@ public class FailSaveVsFail {
             System.out.println(it.next());
             //ar.add(100); //java.util.ConcurrentModificationException --Called Fail fast
         }
+
+        // fail safe
+        System.out.println("--Fail safe using iterator--");
+        CopyOnWriteArrayList ca = new CopyOnWriteArrayList();
+        ca.add(1);
+        ca.add(15);
+        ca.add(65);
+        ca.add(86);
+        ca.add(90);
+        ca.add(65);
+        ca.add(85);
+        ca.add(99);
+
+        Iterator itc = ca.iterator();
+
+        while(itc.hasNext()){
+            System.out.println(itc.next());
+            ca.add(98);
+        }
+
     }
 }
