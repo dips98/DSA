@@ -16,17 +16,18 @@ public class Iterators {
         System.out.println(ar);
 
         // printing through for loop
-
         for (int i = 0; i < ar.size(); i++) {
             // Object o = ar.get(i);
             // System.out.println(o);
             System.out.println(ar.get(i));
         }
-        System.out.println("---------------");
+        System.out.println("--------------- This is using For each loop");
         //  For each loop
         for (Object i : ar) {
             System.out.println(i);
         }
+
+        System.out.println("---------------- This is using iterator");
 
     }
 }
