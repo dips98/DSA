@@ -23,5 +23,7 @@ public class Iterators {
             System.out.println(ar.get(i));
         }
 
+        //  For each loop
+
     }
 }
