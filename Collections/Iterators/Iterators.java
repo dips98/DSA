@@ -17,12 +17,11 @@ public class Iterators {
 
         // printing through for loop
 
-        for (int i =0;i<ar.size();i++){
+        for (int i = 0; i < ar.size(); i++) {
             // Object o = ar.get(i);
             // System.out.println(o);
             System.out.println(ar.get(i));
         }
-        
 
     }
 }
