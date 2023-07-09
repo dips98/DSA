@@ -1,6 +1,7 @@
 package Collections.Iterators;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Iterators {
     public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class Iterators {
         ar.add(75);
         ar.add(99);
         System.out.println(ar);
-
+        System.out.println("---This is using simple For loop---");
         // printing through for loop
         for (int i = 0; i < ar.size(); i++) {
             // Object o = ar.get(i);
@@ -28,6 +29,7 @@ public class Iterators {
         }
 
         System.out.println("---This is using iterator---");
-
+        Iterator it = ar.iterator();
+        
     }
 }
