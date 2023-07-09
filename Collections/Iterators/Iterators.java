@@ -2,6 +2,7 @@ package Collections.Iterators;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 public class Iterators {
     public static void main(String[] args) {
@@ -30,6 +31,14 @@ public class Iterators {
 
         System.out.println("---This is using iterator---");
         Iterator it = ar.iterator();
-        
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
+
+        System.out.println("---Using List Iterator---");
+        ListIterator lit = ar.listIterator(ar.size());
+        while(lit.hasPrevious()){
+            System.out.println(lit.previous());
+        }
     }
 }
