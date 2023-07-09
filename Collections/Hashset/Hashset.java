@@ -19,7 +19,7 @@ public class Hashset {
         hs.add(200);
         System.out.println(hs);
 
-        //  it will follow the order of insersion
+        // it will follow the order of insersion
         LinkedHashSet hs1 = new LinkedHashSet();
         hs1.add(1);
         hs1.add(20);
