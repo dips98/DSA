@@ -13,7 +13,7 @@ interface Computer1 {
     void compileCode();
 
     default void config() {
-        System.out.println("Used deafult!");
+        System.out.println("Used default!");
     }
 
     static void Show() {
