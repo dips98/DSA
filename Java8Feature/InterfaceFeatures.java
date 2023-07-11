@@ -1,7 +1,7 @@
 package Java8Feature;
 
 // Java 8 feature we can define method (Body of function) in Interface
-// We can use type of interface to crate an object
+// We can use type of interface to create an object
 // Static method also we can define in Interfface
 
 // Three Types of Interface 
