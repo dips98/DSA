@@ -11,7 +11,7 @@ Data structure and Algorithm
 1. Java Programming language
     . Execution and dependency on lang
     . Basic Lang flow 
-    
+    .
     . Collections
 
 2. Basic Data Stucture
