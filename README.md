@@ -29,5 +29,5 @@ Data structure and Algorithm
 
 4. Basic Algorithm
     . Sorting
-    . 
+    . Searching
     .
