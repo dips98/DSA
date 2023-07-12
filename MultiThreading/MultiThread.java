@@ -4,6 +4,6 @@ package MultiThreading;
 // 1
 public class MultiThread {
     public static void main(String[] args) {
-        System.out.println("MultiThreading");
+        System.out.println("Multi Threading");
     }
 }
