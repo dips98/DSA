@@ -11,7 +11,7 @@ package MultiThreading;
 public class MultiThread {
     public static void main(String[] args) {
         System.out.println("Multi Threading !");
-        Thread t = new Thread(); // Creating Thread Ob
+        Thread t = new Thread(); // Creating Thread Obj
         System.out.println(t.getThreadGroup());
     }
 }
