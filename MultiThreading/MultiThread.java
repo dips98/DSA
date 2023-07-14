@@ -12,6 +12,6 @@ public class MultiThread {
     public static void main(String[] args) {
         System.out.println("Multi Threading !");
         Thread t = new Thread(); // Creating Thread Object
-        System.out.println(t.getThreadGroup()); //
+        System.out.println(t.getThreadGroup()); // Printing
     }
 }
