@@ -13,5 +13,6 @@ public class MultiThread {
         System.out.println("Multi Threading !");
         Thread t = new Thread(); // Creating Thread Object
         System.out.println(t.getName()); // Printing the Thread name
+        
     }
 }
