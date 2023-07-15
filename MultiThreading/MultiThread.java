@@ -14,6 +14,6 @@ public class MultiThread {
         Thread t = new Thread(); // Creating Thread Object
         System.out.println(t.getName()); // Printing the Thread name
         t.setName("Dips");
-        System.out.println();
+        System.out.println(t.getName());
     }
 }
