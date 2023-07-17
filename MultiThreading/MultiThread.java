@@ -17,6 +17,6 @@ public class MultiThread {
         System.out.println(t.getName());
         System.out.println("This is Thread");
         System.out.println();
-        System.o
+        System.
     }
 }
