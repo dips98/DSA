@@ -15,6 +15,5 @@ public class MultiThread {
         System.out.println(t.getName()); // Printing the Thread name
         t.setName("Dips");
         System.out.println(t.getName());
-        
     }
 }
