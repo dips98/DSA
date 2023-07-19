@@ -16,5 +16,6 @@ public class MultiThread {
         t.setName("Dips");
         System.out.println(t.getName());
          
+        
     }
 }
