@@ -18,6 +18,5 @@ public class MultiThread {
         System.out.println();
 
 
-
     }
 }
