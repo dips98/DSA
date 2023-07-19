@@ -17,6 +17,5 @@ public class MultiThread {
         System.out.println(t.getName());
         System.out.println();
 
-
     }
 }
