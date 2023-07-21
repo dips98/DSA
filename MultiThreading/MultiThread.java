@@ -10,7 +10,7 @@ package MultiThreading;
 
 public class MultiThread {
     public static void main(String[] args) {
-        // System.out.println("M
+        // System.out.println("
         System.out.println("Main Thread");
         String name = Thread.currentThread().getName();
         System.out.println("The name of main thread is "+name);
