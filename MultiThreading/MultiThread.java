@@ -11,6 +11,6 @@ package MultiThreading;
 public class MultiThread {
     public static void main(String[] args) {
         System.out.println("Multi Threading !");
-        System.out.println();
+        System.out.println("Main Thread");
     }
 }
