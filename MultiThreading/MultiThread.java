@@ -15,5 +15,4 @@ public class MultiThread {
         String name = Thread.currentThread().getName();
         System.out.println("The name of main thread is "+name);
     }
-    
 }
