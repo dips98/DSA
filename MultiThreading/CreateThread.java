@@ -4,6 +4,8 @@ package MultiThreading;
 // 1. By extending the Thread class 2. By implementing runable Interface
 
 
+//  Boss of all thread is Thread Schedular
+
 class Mythread extends Thread{
     public void run(){
         System.out.println("Child Thread");
