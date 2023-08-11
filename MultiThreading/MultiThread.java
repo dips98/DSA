@@ -7,13 +7,12 @@ package MultiThreading;
 
 // Within Application(Process) doing multi tasking in Os is called "Thread-Based/Multi-Threading" Multi Tasking
 
-
 public class MultiThread {
     public static void main(String[] args) {
         // System.out.printl
         System.out.println("Main Thread");
         String name = Thread.currentThread().getName();
-        System.out.println("The name of main thread is "+name);
-        
+        System.out.println("The name of main thread is " + name);
+
     }
 }
