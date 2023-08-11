@@ -4,5 +4,7 @@ package MultiThreading;
 // 1. By extending the Thread class 2. By implementing runable Interface
 
 public class CreateThread {
-    
+    public static void main(String[] args) {
+        
+    }
 }
