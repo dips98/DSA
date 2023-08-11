@@ -13,13 +13,13 @@ public class MultiThread {
         System.out.println("Before changing: ");
         String name = Thread.currentThread().getName();
         System.out.println("The name of main thread is " + name);
-        System.out.println("Priority of this thread is "+ Thread.currentThread().getPriority());
+        System.out.println("Priority of this thread is " + Thread.currentThread().getPriority());
 
         System.out.println("after changing :");
         Thread.currentThread().setName("Dipesh");
         Thread.currentThread().setPriority(2);
         String name1 = Thread.currentThread().getName();
         System.out.println("The name of main thread is " + name1);
-        System.out.println("Priority of this thread is "+ Thread.currentThread().getPriority());
+        System.out.println("Priority of this thread is " + Thread.currentThread().getPriority());
     }
 }
