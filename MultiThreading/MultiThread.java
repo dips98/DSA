@@ -13,6 +13,6 @@ public class MultiThread {
         System.out.println("Main Thread");
         String name = Thread.currentThread().getName();
         System.out.println("The name of main thread is " + name);
-
+        System.out.println("Priority of this thread is "+ Thread.currentThread().getPriority());
     }
 }
