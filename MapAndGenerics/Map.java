@@ -9,7 +9,7 @@ public class Map {
         LinkedHashMap lhm = new LinkedHashMap();
         TreeMap tm = new TreeMap();
 
-        h.put(01, "Dips");
+        h.put(01, "Dips ");
         h.put(02, "Rips");
         h.put(03, "Sips");
         h.put(04, "Lips");
