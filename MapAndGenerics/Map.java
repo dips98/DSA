@@ -8,7 +8,6 @@ public class Map {
         Hashtable ht = new Hashtable();
         LinkedHashMap lhm = new LinkedHashMap();
         TreeMap tm = new TreeMap();
-        // System.out.println(h);
 
         h.put(01, "Dips");
         h.put(02, "Rips");
