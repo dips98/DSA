@@ -17,30 +17,29 @@ public class MapUsedCase {
         System.out.println(hm.get(1));
         System.out.println("-----------------------------");
 
-
         Set keys = hm.keySet();
         Iterator it1 = keys.iterator();
 
         while (it1.hasNext()) {
-            Integer key = (Integer)it1.next();
+            Integer key = (Integer) it1.next();
             System.out.println(key);
         }
-        System.out.println("-----------------------------");  
+        System.out.println("-----------------------------");
 
         Collection value = hm.values();
         Iterator it2 = value.iterator();
 
-        while(it2.hasNext()){
-            String values = (String)it2.next();
+        while (it2.hasNext()) {
+            String values = (String) it2.next();
             System.out.println(values);
         }
 
         System.out.println("-----------------------------");
-        
+
         Set entry = hm.entrySet();
         Iterator it3 = entry.iterator();
 
-        while(it3.hasNext()){
+        while (it3.hasNext()) {
             System.out.println(it3.next());
         }
     }
