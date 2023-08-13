@@ -8,6 +8,6 @@ public class MapUsedCase {
         hm.put(1, "Sam");
         System.out.println(hm.get(1));
         System.out.println("-----------------------------");
-        // Iterator itr = hm.
+        Iterator itr = hm.
     }
 }
