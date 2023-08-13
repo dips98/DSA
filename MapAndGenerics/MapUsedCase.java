@@ -25,8 +25,7 @@ public class MapUsedCase {
             Integer key = (Integer)it1.next();
             System.out.println(key);
         }
-        System.out.println("-----------------------------");
-        
+        System.out.println("-----------------------------");  
 
         Collection value = hm.values();
         Iterator it2 = value.iterator();
@@ -35,7 +34,6 @@ public class MapUsedCase {
             String values = (String)it2.next();
             System.out.println(values);
         }
-
 
         System.out.println("-----------------------------");
         
