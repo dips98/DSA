@@ -16,6 +16,7 @@ public class MapUsedCase {
         System.out.println("-----------------------------");
         Set keys = hm.keySet();
         Iterator it1 = keys.iterator();
+        
         while(it1.hasNext()){
             System.out.println(it1.next());
         }
