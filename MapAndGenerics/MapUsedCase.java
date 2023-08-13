@@ -12,6 +12,7 @@ public class MapUsedCase {
         hm.put(5, "Pam");
         hm.put(6, "Nam");
         hm.put(7, "Iom");
+        hm.put(7, "Ivan");
         System.out.println(hm.get(1));
         System.out.println("-----------------------------");
         Set keys = hm.keySet();
