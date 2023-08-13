@@ -5,10 +5,11 @@ import java.util.Scanner;
 class Dance extends Thread {
     public void run() {
         System.out.println("Starting dancing !");
-        Scanner sc = new Scanner(System.in);
-        int step = sc.nextInt();
-        for (int i = 0; i < step; i++) {
-            System.out.println("Step : " + (i + 1));
+        try (Scanner sc = new Scanner(System.in)) {
+            int step = sc.nextInt();
+            for (int i = 0; i < step; i++) {
+                System.out.println("Step : " + (i + 1));
+            }
         }
 
     }
