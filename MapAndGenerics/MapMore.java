@@ -5,8 +5,8 @@ class Student{
     private Integer age;
     private String address;
 
-    void Student(String name,){
-
+    void Student(String name,Integer age,String address){
+        this.name = name;
     }
 }
 
