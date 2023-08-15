@@ -1,11 +1,11 @@
 package MapAndGenerics;
 
-class Student{
+class Student {
     private String name;
     private Integer age;
     private String address;
 
-    void Student(String name,Integer age,String address){
+    void Student(String name, Integer age, String address) {
         this.name = name;
         this.age = age;
         this.address = address;
@@ -14,7 +14,7 @@ class Student{
     public String getName() {
         return name;
     }
-    
+
     public String getAddress() {
         return address;
     }
