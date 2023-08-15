@@ -24,6 +24,7 @@ public class MapUsedCase {
             Integer key = (Integer) it1.next();
             System.out.println(key);
         }
+        
         System.out.println("-----------------------------");
 
         Collection value = hm.values();
