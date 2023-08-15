@@ -20,6 +20,9 @@ class Student{
     public Integer getAge() {
         return age;
     }
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }
 
 public class MapMore {
