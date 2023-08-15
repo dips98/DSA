@@ -10,6 +10,10 @@ class Student{
         this.age = age;
         this.address = address;
     }
+
+    public String getName() {
+        return name;
+    }
 }
 
 public class MapMore {
