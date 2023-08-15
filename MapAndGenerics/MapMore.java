@@ -7,6 +7,7 @@ class Student{
 
     void Student(String name,Integer age,String address){
         this.name = name;
+        
     }
 }
 
