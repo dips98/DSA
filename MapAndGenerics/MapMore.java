@@ -3,31 +3,28 @@ package MapAndGenerics;
 class Student {
     private String name;
     private Integer age;
-    private String address;
+    private String city;
 
-    public Student(String string, int i, String string2) {
-    }
-
-    void Student(String name, Integer age, String address) {
+    public Student(String name, Integer age, String city) {
         this.name = name;
         this.age = age;
-        this.address = address;
+        this.city = city;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getAddress() {
-        return address;
+    public String getCity() {
+        return city;
     }
 
     public Integer getAge() {
         return age;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setCity(String city) {
+        this.city = city;
     }
 
     public void setAge(Integer age) {
@@ -41,8 +38,8 @@ class Student {
 
 public class MapMore {
     public static void main(String[] args) {
-        Student s1 = new Student("Dipesh",24,"Mumbai");
-        
+        Student s1 = new Student(name:"Dipesh",age:24,address:"Mumbai");
+
 
     }
 }
