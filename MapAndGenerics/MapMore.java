@@ -39,6 +39,6 @@ class Student {
 public class MapMore {
     public static void main(String[] args) {
         Student s1 = new Student("Dipesh", 24, "Mumbai");
-        Student s2 = 
+        Student s2 = new Student("Shubham", 34, "Hyderbad")
     }
 }
