@@ -38,8 +38,8 @@ class Student {
 
 public class MapMore {
     public static void main(String[] args) {
-        Student s = new Student();
-        
+        Student s1 = new Student();
+
 
     }
 }
