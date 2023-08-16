@@ -5,6 +5,9 @@ class Student {
     private Integer age;
     private String address;
 
+    public Student(String string, int i, String string2) {
+    }
+
     void Student(String name, Integer age, String address) {
         this.name = name;
         this.age = age;
@@ -38,8 +41,8 @@ class Student {
 
 public class MapMore {
     public static void main(String[] args) {
-        Student s1 = new Student();
-
+        Student s1 = new Student("Dipesh",24,"Mumbai");
+        
 
     }
 }
