@@ -43,5 +43,6 @@ public class MapUsedCase {
         while (it3.hasNext()) {
             System.out.println(it3.next());
         }
+        
     }
 }
