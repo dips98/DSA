@@ -50,6 +50,6 @@ public class MapMore {
         m.put(s3, s3.getName());
 
         System.out.println(m);
-        System.out.println()
+        System.out.println(m)
     }
 }
