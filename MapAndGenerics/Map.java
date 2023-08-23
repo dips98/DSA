@@ -13,7 +13,7 @@ public class Map {
         h.put(02, " Rips ");
         h.put(03, " Sips ");
         h.put(04, " Lips ");
-        h.put(05,"");
+        h.put(05,"K");
         System.out.println(h);
     }
 }
