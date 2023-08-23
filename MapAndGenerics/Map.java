@@ -14,6 +14,7 @@ public class Map {
         h.put(03, " Sips ");
         h.put(04, " Lips ");
         h.put(05, "Kips");
+        
         System.out.println(h);
     }
 }
