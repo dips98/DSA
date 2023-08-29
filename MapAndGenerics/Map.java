@@ -13,6 +13,8 @@ public class Map {
         h.put(02, " Rips ");
         h.put(03, " Sips ");
         h.put(04, " Lips ");
-        System.out.println(h);
+        h.put(05, "Kips");
+
+        System.out.println(h+""+h);
     }
 }
