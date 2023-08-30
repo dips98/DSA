@@ -42,9 +42,10 @@ public class MapMore {
     public static void main(String[] args) {
         Student s1 = new Student("Dipesh", 24, "Mumbai");
         Student s2 = new Student("Shubham", 34, "Hyderbad");
-        Student s3 = new Student("Yash", 24, "Bilaspur");
-        HashMap m = new HashMap();
+        Student s3 = new Student("Yash", 24, "Bilaspur");\
         
+        HashMap m = new HashMap();
+
         m.put(s1, s1.getName());
         m.put(s2, s2.getName());
         m.put(s3, s3.getName());
