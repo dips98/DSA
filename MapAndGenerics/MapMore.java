@@ -45,13 +45,14 @@ public class MapMore {
         Student s3 = new Student("Yash", 24, "Bilaspur");\
 
 
+        
         HashMap m = new HashMap();
 
         m.put(s1, s1.getName());
 
 
         m.put(s2, s2.getName());
-        
+
         m.put(s3, s3.getName());
 
         System.out.println(m.get("Di"));
