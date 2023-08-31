@@ -45,7 +45,6 @@ public class MapMore {
         Student s3 = new Student("Yash", 24, "Bilaspur");
 
 
-
         HashMap m = new HashMap();
 
         m.put(s1, s1.getName());
