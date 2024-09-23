@@ -25,6 +25,7 @@ public class Graph {
         adj.get(3).add(1);
 
         // If its directed graph the add once form 1 to 2 only u->v
+        // adj.get(u).add(v);
 
         System.out.println("After adding"+adj.toString());
     }
