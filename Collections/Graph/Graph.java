@@ -10,6 +10,16 @@ public class Graph {
         for(int i=0;i<=n;i++){
             adj.add(new ArrayList<Integer>());
         }
-        System.out.println("Helo"+adj.toString());
+
+        adj.get(1).add(2);
+        adj.get(2).add(1);
+
+        adj.get(2).add(3);
+        adj.get(3).add(2);
+
+        adj.get(1).add(3);
+        adj.get(3).add(1);
+
+        System.out.println("After adding"+adj.toString());
     }
 }
