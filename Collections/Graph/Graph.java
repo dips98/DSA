@@ -28,5 +28,14 @@ public class Graph {
         // adj.get(u).add(v);
 
         System.out.println("After adding"+adj.toString());
+
+        // printing all the edges connected
+
+        for(int i=1; i<=n;i++){
+            for (int j=0;j<adj.get(i).size();j++){
+                System.out.print(adj.get(i).get(j)+ " ");
+            }
+            System.out.println();
+        }
     }
 }
