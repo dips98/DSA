@@ -11,6 +11,8 @@ public class Graph {
             adj.add(new ArrayList<Integer>());
         }
 
+        //  This is only for directed graph add form both side
+        
         adj.get(1).add(2);
         adj.get(2).add(1);
 
@@ -19,6 +21,8 @@ public class Graph {
 
         adj.get(1).add(3);
         adj.get(3).add(1);
+
+        // If its directed graph the add once form 1 to 2 only u->v
 
         System.out.println("After adding"+adj.toString());
     }
