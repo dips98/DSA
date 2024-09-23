@@ -11,8 +11,10 @@ public class Graph {
             adj.add(new ArrayList<Integer>());
         }
 
-        //  This is only for directed graph add form both side
-        
+        //  This is only for undirected graph add form both side
+        // adj.get(u).add(v);
+        // adj.get(v).add(u);
+
         adj.get(1).add(2);
         adj.get(2).add(1);
 
